@@ -13,11 +13,7 @@ end
 group :production do
   gem 'pg', '>= 0.18', '< 2.0'
 end
-# Use Puma as the app server
-=======
-end
-# Use Puma as the app server
->>>>>>> b0566306b5238fc32cecf8f025d22501f09f8ae6
+
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
